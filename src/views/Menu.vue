@@ -89,7 +89,7 @@ export default {
           menuPizza: [],
           menuFish: [],
           menuDessert: [],
-          categories: ["קינוחים", "דגים", "פיצות", "פסטות", "סלטים", "ראשונות"],
+          categories: ["ראשונות", "סלאים", "פסטות", "פיצות", "דגים", "קינוחים"],
           selectedCategory: "ראשונות"
       }
     },
@@ -215,6 +215,7 @@ export default {
         margin: auto;
         margin-bottom: 2rem;
         width: 90%;
+        direction: rtl;
     }
     
     .category{
