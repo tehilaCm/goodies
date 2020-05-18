@@ -21,19 +21,19 @@
                 <h2 class="contact-form-header">צור קשר</h2>
                 <p class="small-input full-name">
                 <label for="full-name">שם מלא</label>
-                <input type="text" name="full-name">
+                <input type="text" name="full-name" required>
                 </p>
                 <p class="small-input">
                 <label for="email">דוא"ל</label>
-                <input type="email" name="email">
+                <input type="email" name="email" required>
                 </p>
                 <p>
                 <label for="subject">נושא</label>
-                <input type="text" name="subject">
+                <input type="text" name="subject" required>
                 </p>
                 <p>
                 <label for="message">הודעה</label>
-                <textarea id="message" rows="4" cols="50"></textarea>
+                <textarea id="message" rows="4" cols="50" required></textarea>
                 </p>
                 <input type="submit" value="שליחה">
             </form>
