@@ -291,8 +291,8 @@ window.addEventListener("scroll",function(){
     height: 2.5rem;
     color: rgb(204, 116, 2);
     position: fixed;
-    bottom: 3rem;
-    right: 3rem;
+    bottom: 7rem;
+    right: 2rem;
     z-index: 5;
     border: 1px solid rgb(204, 116, 2);
     background-color: rgb(254, 255, 168);
@@ -306,6 +306,12 @@ window.addEventListener("scroll",function(){
 
   @media (min-width: 43rem)
   {
+
+    .scroll-up {
+      bottom: 6rem;
+      right: 3rem;
+    }
+
     nav{
       display: block;
     }
