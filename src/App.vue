@@ -12,7 +12,7 @@
     <div class="nav">
       <router-link to="/">
       <div class="icon-background">
-        <h1 class="icon">Googies</h1>
+        <h1 class="icon">Goodies</h1>
       </div>
       </router-link>
       <img src="@/assets/menu.png" class="mobile-menu-icon" @click="openMobileNav()">
